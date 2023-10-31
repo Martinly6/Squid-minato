@@ -96,7 +96,7 @@ function endGame(isVictory) {
     endGameText.innerHTML = 'YOU<br>WIN';
   } else {
     endGameScreen.classList.remove('hidden');
-    endGameText.innerHTML = 'YOU<br>LOSE';
+    endGameText.innerHTML = 'Game<br>Over';
   }
 }
 
