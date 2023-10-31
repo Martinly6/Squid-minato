@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SQUID MINATO</title>
+
+  <!-- Font -->
+  <link href="https://fonts.cdnfonts.com/css/game-of-squids" rel="stylesheet">
+  <style>
+    @import url('https://fonts.cdnfonts.com/css/game-of-squids');
+  </style>
+
+  <!-- Foglio di stile -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+
+    <!-- Pannello informazioni di gioco -->
+    <div class="game-panel">
+      <h1>SQUID MINATO</h1>
+
+      <!-- Punteggio -->
+      <div class="score">
+        <span class="score-label">SCORE</span>
+        <span class="score-counter">00000</span>
+      </div>
+    </div>
+
+    <!-- Tabellone di gioco -->
+    <div class="game-board">
+      <div class="grid">
+
+      <!-- Schermata di fine gioco -->
+      <div class="end-game-screen hidden">
+        <div class="end-game-text">Game Over</div>
+        <button class="play-again">Play again</button>
+      </div>
+    </div>
+
+    <!-- Audio-->
+    <div class="audio controls">
+      <audio autoplay>
+        <source src="/robot-doll.mp3" />
+      </audio>
+    </div>
+  </div>
+
+  <!-- Javascript -->
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
